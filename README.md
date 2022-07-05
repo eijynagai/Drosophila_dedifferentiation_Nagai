@@ -2,26 +2,33 @@
 
 This directory contains the scripts and data required to reproduce and extend 
 the analyses presented in the paper, "Nutrient-driven dedifferentiation of 
-enteroendocrine cells promotes adaptive intestinal growth"
+enteroendocrine cells promotes adaptive intestinal growth".
 
 ## Prerequisites
+To avoid version conflicts and , we prefer to run using container.
 * Singularity 3.4 or higher
+* Dockerfile (found at https://hub.docker.com/r/rnakato/singlecell_jupyter)
 
 
 ## Other necessary files
-* Drosophila annotation files ()
-
-
+* [Drosophila genome](https://jan2019.archive.ensembl.org/Drosophila_melanogaster/Info/Index) 
+and [annotation files](http://ftp.ensembl.org/pub/release-103/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.32.103.gtf.gz)
+* Fastq files (GEO)
+* 
 
 ## List of initial files and directories
 
 ```
-
 project/
 │     README.md
 │     aggr.csv
-│     run1_cellranger.sh 
-│  
+│     run1_cellranger.sh
+│     run2_make_loom.sh
+│     run3_QC_DEGs.ipynb
+│     run4_RNA_velocities.ipynb
+│     run5_EE_subclusters.ipynb
+│     run6_midgut_cellatlas_comparison.ipynb
+│
 └───  fastq/
 │     └─  1DAE/
 │     │      1DAE_S1_L001_R1_001.fastq.gz
@@ -32,6 +39,6 @@ project/
 │            3DAE_S1_L001_R2_001.fastq.gz
 │
 └───  references_annotations/
-      └─  Drosophila_melanogaster.BDGP6/
+     └─  Drosophila_melanogaster.BDGP6/
 
 ```
