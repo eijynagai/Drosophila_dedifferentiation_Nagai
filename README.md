@@ -42,3 +42,6 @@ project/
      └─  Drosophila_melanogaster.BDGP6/
 
 ```
+
+## Contact
+nagai [at] iqb.u-tokyo.ac.jp
