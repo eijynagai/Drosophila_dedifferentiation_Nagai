@@ -7,13 +7,13 @@ enteroendocrine cells promotes adaptive intestinal growth".
 ## Prerequisites
 To avoid version conflicts and , we prefer to run using container.
 * Singularity 3.4 or higher
-* Dockerfile (found at https://hub.docker.com/r/rnakato/singlecell_jupyter)
+* Dockerfile (use 2022.03 version: https://hub.docker.com/r/rnakato/singlecell_jupyter)
 
 
 ## Other necessary files
 * [Drosophila genome](https://jan2019.archive.ensembl.org/Drosophila_melanogaster/Info/Index) 
 and [annotation files](http://ftp.ensembl.org/pub/release-103/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.32.103.gtf.gz)
-* Fastq files (GEO)
+* Fastq files (GEO id in process)
 * 
 
 ## List of initial files and directories
