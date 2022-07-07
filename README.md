@@ -9,7 +9,7 @@ To avoid version conflicts and necessity to install tools, we prefer using conta
 All necessary tools are already installed in the singlecell_jupyter singularity image.
 * Singularity 3.4 or higher
 * Dockerfile (use 2022.03 version: https://hub.docker.com/r/rnakato/singlecell_jupyter)
-
+* CellRanger 6.0.1 (https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
 
 ## Other necessary files
 * [Drosophila genome](https://jan2019.archive.ensembl.org/Drosophila_melanogaster/Info/Index) 
@@ -25,10 +25,11 @@ project/
 │     aggr.csv
 │     run1_cellranger.sh
 │     run2_make_loom.sh
-│     run3_QC_DEGs.ipynb
-│     run4_RNA_velocities.ipynb
-│     run5_EE_subclusters.ipynb
-│     run6_midgut_cellatlas_comparison.ipynb
+│     run3_merge_loom.ipynb
+│     run4_QC_DEGs.ipynb
+│     run5_RNA_velocities.ipynb
+│     run6_EE_subclusters.ipynb
+│     run7_midgut_cellatlas_comparison.ipynb
 │
 └───  fastq/
 │     └─  1DAE/
