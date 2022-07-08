@@ -1,7 +1,6 @@
 1DAE/
 3DAE/
-log/
-results/
-figures/
-temp/
-
+aggr/
+container_scripts
+fastq
+references_annotations
