@@ -26,10 +26,12 @@ project/
 │     run1_cellranger.sh
 │     run2_make_loom.sh
 │     run3_merge_loom.ipynb
-│     run4_QC_DEGs.ipynb
-│     run5_RNA_velocities.ipynb
-│     run6_EE_subclusters.ipynb
-│     run7_midgut_cellatlas_comparison.ipynb
+│     run4_QC1.ipynb
+│     run5_QC2.ipynb
+│     run6_DEGs_GO.ipynb
+│     run7_RNA_velocities.ipynb
+│     run8_EE_subclusters.ipynb
+│     run9_midgut_cellatlas_comparison.ipynb
 │
 └───  fastq/
 │     └─  1DAE/
