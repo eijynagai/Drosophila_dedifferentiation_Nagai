@@ -4,18 +4,18 @@ This directory contains the scripts and data required to reproduce and extend
 the analyses presented in the paper, "Nutrient-driven dedifferentiation of 
 enteroendocrine cells promotes adaptive intestinal growth".
 
+
 ## Prerequisites
-To avoid version conflicts and necessity to install tools, we prefer using container.
-All necessary tools are already installed in the singlecell_jupyter singularity image.
+To avoid version conflicts and the necessity to install tools, we prefer using containers.
+All necessary tools are already installed in the ShortCake image.
 * Singularity 3.4 or higher
-* Dockerfile (use 2022.03 version: https://hub.docker.com/r/rnakato/singlecell_jupyter)
+* Dockerfile (use 2022.03 version: [https://hub.docker.com/r/rnakato/singlecell_jupyter](https://hub.docker.com/r/rnakato/shortcake))
 * CellRanger 6.0.1 (https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
 
 ## Other necessary files
 * [Drosophila genome](https://jan2019.archive.ensembl.org/Drosophila_melanogaster/Info/Index) 
 and [annotation files](http://ftp.ensembl.org/pub/release-103/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.32.103.gtf.gz)
-* Fastq files (GEO id in process)
-* 
+* Fastq files (GSE207662)
 
 ## List of initial files and directories
 
