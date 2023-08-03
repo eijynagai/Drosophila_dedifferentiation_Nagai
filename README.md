@@ -9,7 +9,7 @@ enteroendocrine cells promotes adaptive intestinal growth".
 To avoid version conflicts and the necessity to install tools, we prefer using containers.
 All necessary tools are already installed in the ShortCake image.
 * Singularity 3.4 or higher
-* Dockerfile (use 2022.03 version: [https://hub.docker.com/r/rnakato/singlecell_jupyter](https://hub.docker.com/r/rnakato/shortcake))
+* Dockerfile (use 2022.03 version: [https://hub.docker.com/r/rnakato/shortcake](https://hub.docker.com/r/rnakato/shortcake))
 * CellRanger 6.0.1 (https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
 
 ## Other necessary files
