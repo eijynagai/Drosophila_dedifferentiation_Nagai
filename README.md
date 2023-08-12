@@ -1,5 +1,7 @@
 # Drosophila dedifferentiation Nagai
 
+[![DOI](https://zenodo.org/badge/510335588.svg)](https://zenodo.org/badge/latestdoi/510335588)
+
 This directory contains the scripts and data required to reproduce and extend 
 the analyses presented in the paper, "Nutrient-driven dedifferentiation of 
 enteroendocrine cells promotes adaptive intestinal growth".
